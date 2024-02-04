@@ -1,0 +1,27 @@
+<!-- FILEPATH: /home/enbt0909/www/index.html -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passwortgenerator</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="input__box">
+      <label for="length">Passwortlänge:</label>
+      <input
+        type="range"
+        id="length"
+        name="length"
+        min="1"
+        max="100"
+        value="12"
+      />
+      <span id="lengthValue">12</span>
+      <button id="generate">Generiere Passwort</button>
+      <input type="text" id="password" readonly />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
